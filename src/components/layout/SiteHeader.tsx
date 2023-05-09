@@ -2,8 +2,8 @@ import React from "react";
 
 export const SiteHeader: React.FC = () => {
   return (
-    <React.Fragment>
+    <header>
       <h1>SiteHeader</h1>
-    </React.Fragment>
+    </header>
   );
 };
