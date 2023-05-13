@@ -8,9 +8,11 @@ interface SiteLayoutProps {
 export const SiteLayout: React.FC<SiteLayoutProps> = ({ children }) => {
   return (
     <main className="relative min-h-screen flex flex-col">
-      <SiteHeader />
-      {children}
-      <SiteFooter />
+      <React.Fragment>
+        <SiteHeader />
+        {children}
+        <SiteFooter />
+      </React.Fragment>
     </main>
   );
 };

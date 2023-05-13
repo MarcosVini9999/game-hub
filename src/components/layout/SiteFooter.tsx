@@ -4,7 +4,7 @@ import LinkedinLogo from "@/assets/svg/logo-linkedin.svg";
 
 export const SiteFooter: React.FC = () => {
   return (
-    <footer className="mt-auto mx-auto">
+    <footer className="mx-auto">
       <div className="flex flex-row justify-center">
         <a
           href="https://github.com/MarcosVini9999"
