@@ -1,3 +1,3 @@
 export { Minefield } from "./Minefield";
 export { RockPaperScissors } from "./RockPaperScissors";
-export { Hash } from "./hash";
+export { Hash } from "./Hash";
