@@ -1,5 +1,5 @@
 import React from "react";
-import { Hash, Minefield, RockPaperScissors, SiteLayout } from "@/components";
+import { Hash, Minefield, Jokenpo, SiteLayout } from "@/components";
 import { GameContext } from "@/contexts/gameContext";
 
 export const App = () => {
@@ -11,7 +11,7 @@ export const App = () => {
         <div className="m-auto">
           {game === "Jogo da Velha" ? <Hash /> : null}
           {game === "Campo Minado" ? <Minefield /> : null}
-          {game === "Pedra, Papel ou Tesoura" ? <RockPaperScissors /> : null}
+          {game === "Pedra, Papel ou Tesoura" ? <Jokenpo /> : null}
         </div>
       </SiteLayout>
     </React.Fragment>

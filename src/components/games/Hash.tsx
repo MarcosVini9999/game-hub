@@ -29,7 +29,7 @@ export const Hash = () => {
             handleTurn(index);
           }}
         >
-          {value}
+          {value === "X" ? "❌" : value === "O" ? "⭕" : ""}
         </p>
       ))}
     </div>
