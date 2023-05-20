@@ -174,7 +174,7 @@ export const Minefield = () => {
 
   return (
     <React.Fragment>
-      <div className="grid grid-cols-9 grid-rows-9 w-auto h-auto bg-slate-200 rounded-lg">
+      <div className="grid grid-cols-9 grid-rows-9 w-auto h-auto bg-blue-200 rounded-lg">
         {gameData.map((array, row) =>
           array.map((obj, col) => (
             <p
@@ -183,7 +183,7 @@ export const Minefield = () => {
               }}
               key={`${obj}${col}`}
               className="flex items-center justify-center w-5 h-5 m-1 p-4 
-              md:w-16 md:h-16 md:m-2 md:p-2 hover:cursor-pointer hover:bg-slate-300 leading-3 
+              md:w-16 md:h-16 md:m-2 md:p-2 hover:cursor-pointer hover:bg-blue-300 leading-3 
               tracking-widest ring-1 ring-gray-700 select-none"
             >
               {obj.hidden ? "" : obj.value === -1 ? "💣" : obj.value}
