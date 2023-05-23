@@ -1,7 +1,6 @@
 import React from "react";
 import { Hash, Minefield, Jokenpo, SiteLayout, HomeBanner } from "@/components";
 import { GameContext } from "@/contexts/gameContext";
-import { Button, Typography } from "@material-tailwind/react";
 
 export const App = () => {
   const { game } = React.useContext(GameContext);
