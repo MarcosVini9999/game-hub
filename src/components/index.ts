@@ -4,3 +4,4 @@ export { Button } from "./Button/Button";
 export { PopUp } from "./PopUp/PopUp";
 export { GameListPopUp } from "./GameListPopUp/GameListPopUp";
 export { AboutPopUp } from "./AboutPopUp/AboutPopUp";
+export { HomeBanner } from "./HomeBanner/HomeBanner";
