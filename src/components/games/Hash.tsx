@@ -73,7 +73,7 @@ export const Hash = () => {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex items-center justify-center flex-col m-auto">
       <div className="grid grid-cols-3 grid-rows-3 w-72 h-72 bg-blue-200 rounded-lg">
         {gameData.board.map((value, index) => (
           <p

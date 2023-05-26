@@ -19,7 +19,7 @@ export const Jokenpo = () => {
   };
 
   return (
-    <React.Fragment>
+    <div className="flex items-center justify-center flex-col m-auto">
       <div>
         <h1>Tabuleiro</h1>
         <h1>robô:{gameData.robotMove}</h1>
@@ -38,6 +38,6 @@ export const Jokenpo = () => {
           </Button>
         ))}
       </div>
-    </React.Fragment>
+    </div>
   );
 };

@@ -8,14 +8,14 @@ export const App = () => {
   return (
     <React.Fragment>
       <SiteLayout>
-        <div className="m-auto">
+        <React.Fragment>
           {Boolean(game) === false ? <HomeBanner /> : null}
-          <div className="flex items-center justify-center">
+          <React.Fragment>
             {game === "Jogo da Velha" ? <Hash /> : null}
             {game === "Campo Minado" ? <Minefield /> : null}
             {game === "Pedra, Papel ou Tesoura" ? <Jokenpo /> : null}
-          </div>
-        </div>
+          </React.Fragment>
+        </React.Fragment>
       </SiteLayout>
     </React.Fragment>
   );
